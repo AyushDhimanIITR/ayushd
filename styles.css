@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.sidebar{
+    background-color: rgba(128, 128, 128, 0.479);
+    font-family: 'Merriweather', serif;
+    /* width: 12vw; */
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 18px;
+    padding: 33px 0;
+
+}
+.sidebar nav li a{
+    /* list-style: none;
+    font-size: 18px;
+    padding: 33px 0; */
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 88vw;
+}
+.container{
+    display: flex;
+}
+
+.info{
+    /* background-color: yellowgreen; */
+    height: 45vh;
+    width: 80vw;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.devInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.devPic img{
+    width: 240px;
+    height: 45vh;
+}
+
+.hello{
+    margin-top: 20px;
+    font-size: 45px;
+
+}
+
+.name{
+    font-size: 35px;
+    font-weight: bold;
+}
+ 
+.about{
+    font-size: 20px;
+    padding-top: 5px;
+}
+.moreabout{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.buttons{
+    margin-top: 24px;
+}
+
+.buttons button{
+    margin: 0px 3px ;
+    padding: 9px 14px ;
+    color:white ;
+    background-color: rgb(17, 82, 179);
+    border-radius: 22px;
+    border-color: rgb(17, 82, 179);
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    color:rgb(17, 82, 179) ;
+    background-color: white;
+    border-color: white;
+}
+
+.blogItem{
+    margin: 2opx;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.blogContainer h1{
+    margin: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.blogContainer h2{
+    margin: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.blogContainer p{
+    margin: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.skillsContainer{
+    padding: 20px;
+}
+.skills{
+    width: 223px;
+    height: 7px;
+    background-color: rgb(197, 33, 33);
+    border: 1px solid black;
+}
+.skillItem{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hundred{
+    height: 7px;
+    width: 265px;
+    background-color: yellow;
+}
+.fifty{
+    height: 7px;
+    width: 180px;
+    background-color: yellow;
+}
+.t5{
+    height: 7px;
+    width: 80px;
+    background-color: yellow;
+}
+
+.devInfo{
+    padding: 10px;
+    margin: 5px;
+}
+
+.devInfo h2{
+    margin-top: 5px;
+}
+
+/* @media screen and (max-width: 480px) { */
+    /* .sidebar {
+        transform: translate(-200px, 0px);
+        position: absolute;
+    } 
+ } */
+
+.sidebarGo{
+    transform: translate(-160px, 0px);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross{
+    margin-left: 90px;
+}
