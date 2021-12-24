@@ -2,12 +2,14 @@
 
 
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
+    color: #030e12;
+
 }
 .sidebar{
-    background-color: rgba(128, 128, 128, 0.479);
+    background-color: #efefef;
     font-family: 'Merriweather', serif;
     width: 12vw;
     height: 100vh;
@@ -28,11 +30,11 @@
     font-size: 18px;
     padding: 33px 0;
     text-decoration: none;
-    color: black;
+    color: #030e12;
 }
 
 .main{
-    /* background-color: yellow; */
+    background-color: #fcde67a8;
     width: 88vw;
 }
 .container{
@@ -40,15 +42,16 @@
 }
 .infoContactform{
     padding: 0 34px;
-    padding-top: 80px;
+    padding-top: 20px;
 }
 .infoContactform h1{
     padding: 0 34px;
-    padding-top: 60px;
+    padding-top: 20px;
     font: bold;
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    color: #030e12;
 }
 .infoContactform form div{
     padding: 8px 0;
@@ -56,6 +59,7 @@
     flex-direction: column;
     width: 20vw;
     border-radius: 8px;
+    font-size: 16px;
 }
 .infoContactform form div input{
     padding: 8px 0;
@@ -83,4 +87,60 @@
     color: rgb(17, 82, 179) ;
     background-color: rgb(255, 255, 255);
     border-color: white;
+}
+
+/* Footer */
+
+.footer {
+  position:fixed;
+  bottom:0;
+  left:12vw;
+  width:88%;
+  height: 35px;
+  background-color: #5bccf6;
+}
+
+
+.footer-text-left {
+  font-size:25px;
+  padding-left:40px;
+  float:left;
+  word-spacing:20px;
+}
+.footer-text-left p{
+  font-size:25px;
+  padding-left:40px;
+  float:left;
+  word-spacing:20px;
+}
+
+a.menu {
+  color:white;
+  text-decoration: none;
+  font-size:20px;
+}
+a.menu:hover {
+  background-color: white;
+  color: #5bccf6;
+  font-size:20px;
+  text-decoration: none;
+}
+
+
+.footer-content-right {
+  padding-right:20px;
+  margin-top:0px;
+  float:right;
+}
+
+.icon-style {
+  height: 23px;
+  margin-left:10px;
+  margin-top:5px;
+}
+
+.icon-style:hover {
+  background-color:white;
+  color: #5bccf6;
+  padding:5px;
 }
